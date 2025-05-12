@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.container {
+	padding: 12px 20px;
+	background-color: lightgray
+}
+
+.reviews {
+	padding: 10px;
+	background-color: white;
+	border: 1px solid black;
+	margin: 20px 0;
+	line-height: 15px;
+}
+
+.reviews p:first-child {
+	text-decoration: bold;
+	font-size: 19px;
+	font-weight: 500;
+}
+.reviews p:last-child {
+	text-align: right;
+	font-style: italic;
+}
